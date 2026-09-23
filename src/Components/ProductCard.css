@@ -1,0 +1,40 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    min-height: 280px;
+}
+
+.product-image {
+    height: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.product-image img {
+    width: 130px;
+    height: 150px;
+
+    object-fit: contain;
+}
+
+.product-card h3 {
+    font-size: 14px;
+    margin: 10px 0;
+
+    height: 40px;
+    overflow: hidden;
+}
+
+.product-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0066ff;
+    margin-top: 10px;
+}
