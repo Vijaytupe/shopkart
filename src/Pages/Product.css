@@ -5,6 +5,7 @@
 .products-page h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .product-container {
@@ -14,6 +15,13 @@
 
     gap: 10px;
 }
-@media (max-width:769px and max-width:1024px) {
-    
+@media (min-width: 769px) and (max-width: 1024px) {
+    .product-container {
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .product-container {
+    grid-template-columns: repeat(2, 1fr);
+}
 }

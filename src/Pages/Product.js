@@ -12,7 +12,7 @@ function Product() {
 
   }, [])
   return (
-    <>
+    <div className='products-page'>
         <h2>Products</h2>
       <div className='product-container'>
         {
@@ -32,7 +32,7 @@ function Product() {
 
       </div>
 
-    </>
+    </div>
   )
 }
 export default Product;
