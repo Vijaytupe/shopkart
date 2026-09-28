@@ -1,5 +1,6 @@
 # 🛒 Shopkart
-🌐 Shopkart is live on Vercel. [https://vijay-shopkart.vercel.app/]
+🌐 **Shopkart is live on Vercel.**
+🔥 **https://vijay-shopkart.vercel.app/**
 
 Shopkart is a responsive e-commerce web application built with React.js. 
 The project was created to practice and implement React concepts while building a real-world shopping website.
