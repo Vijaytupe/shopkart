@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 🛒 Shopkart
+🌐 Shopkart is live on Vercel. [https://vijay-shopkart.vercel.app/]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Shopkart is a responsive e-commerce web application built with React.js. 
+The project was created to practice and implement React concepts while building a real-world shopping website.
 
-## Available Scripts
+The main focus of Shopkart is to keep the interface simple, responsive, and easy to use, while maintaining a clean and reusable component structure.
 
-In the project directory, you can run:
+## 📌 About the Project
 
-### `npm start`
+Shopkart is a frontend e-commerce application where users can browse products, view product information, and interact with the shopping interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I built this project as part of my learning journey with React.js. While developing Shopkart, I worked with reusable components, React Hooks, dynamic data rendering, Bootstrap components, and custom CSS for styling and responsive layouts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project also helped me understand how different parts of an e-commerce application can be structured and connected together.
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🛍️ Browse products
+- 🔎 View product details
+- 🛒 Add products to the cart
+- 📦 Manage cart items
+- 📱 Responsive design
+- 🧩 Reusable React components
+- 🎨 Bootstrap-based UI components
+- 🎨 Custom CSS for additional styling
+- ⚡ Dynamic product rendering
+- 🧭 Client-side navigation
+- 💻 Clean and simple user interface
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### UI & Styling
+- Bootstrap
+- Custom CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Development Tools
+- VS Code
+- Git
+- GitHub
+- npm
