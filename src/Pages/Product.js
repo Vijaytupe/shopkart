@@ -3,14 +3,15 @@ import ProductCard from '../Components/ProductCard'
 import "./Product.css"
 function Product() {
 
-  const [products, setProducts] = useState([])
-  useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
-      .then(response => response.json())
-      .then(data => { setProducts(data)})
-      .catch((error) => console.log("Error: ", error))
+  const [products, setProducts] = useState([]);
 
-  }, [])
+  useEffect(() => {
+    fetch("https://fakestoreapi.noksha.dev/api/products")
+      .then((res) => res.json())
+      .then((json) => setProducts(json.data || json))
+      .catch((error) => console.error("Error fetching products:", error));
+  }, []);
+
   return (
     <div className='products-page'>
         <h2>Products</h2>
